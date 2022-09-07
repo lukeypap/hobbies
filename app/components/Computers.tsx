@@ -26,7 +26,7 @@ const Computers = () => {
                     creating apps and websites in any spare time I have.
                 </p>
             </div>
-            <div className="py-10">
+            <div className="py-20">
                 <img
                     src={computerIllustration}
                     alt="Illustration of a computer"
