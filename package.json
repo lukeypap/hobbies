@@ -1,8 +1,6 @@
 {
-    "homepage": "https://lukeypap.github.io/hobbies/",
     "private": true,
     "sideEffects": false,
-    "type": "module",
     "scripts": {
         "build": "npm run build:css && remix build",
         "build:css": "tailwindcss -m -i ./styles/app.css -o app/styles/app.css",
