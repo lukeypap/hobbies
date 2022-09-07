@@ -4,7 +4,7 @@ import Nav from "~/components/Nav";
 
 export default function Index() {
     return (
-        <div className="bg-black">
+        <div className="bg-black font-quicksand">
             <div className="h-screen">
                 <Nav />
                 <Hero />

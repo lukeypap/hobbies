@@ -10,7 +10,15 @@ export const meta: MetaFunction = () => ({
 });
 
 export function links() {
-    return [{ rel: "stylesheet", href: styles }];
+    return [
+        { rel: "stylesheet", href: styles },
+        { rel: "preconnect", href: "https://fonts.googleapis.com" },
+        { rel: "preconnect", href: "https://fonts.gstatic.com" },
+        {
+            rel: "stylesheet",
+            href: "https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&display=swap",
+        },
+    ];
 }
 
 export default function App() {

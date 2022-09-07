@@ -11,7 +11,10 @@ module.exports = {
       },
       animation: {
         fadeIn: 'fadeIn 2s ease-in-out infinite',
-      }
+      },
+      fontFamily: {
+        quicksand: ["Quicksand"],
+      },
     },
   },
   plugins: [],

@@ -652,10 +652,6 @@ video {
   padding: 1rem;
 }
 
-.font-quicksand {
-  font-family: Quicksand;
-}
-
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
@@ -697,10 +693,4 @@ video {
 
 .opacity-0 {
   opacity: 0;
-}
-
-@font-face {
-  font-family: "Quicksand";
-
-  src: url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&display=swap");
 }
