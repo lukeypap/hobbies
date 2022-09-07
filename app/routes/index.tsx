@@ -1,15 +1,10 @@
-import Hero from "~/components/Hero";
-import Hobbies from "~/components/Hobbies";
-import Nav from "~/components/Nav";
+import Page from "~/components/Page";
+import ScrollObserver from "~/utils/ScrollObserver";
 
 export default function Index() {
     return (
-        <div className="bg-black font-quicksand">
-            <div className="h-screen">
-                <Nav />
-                <Hero />
-            </div>
-            <Hobbies />
-        </div>
+        <ScrollObserver>
+            <Page />
+        </ScrollObserver>
     );
 }
