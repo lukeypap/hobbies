@@ -5,8 +5,10 @@ import Nav from "~/components/Nav";
 export default function Index() {
     return (
         <div className="bg-black">
-            <Nav />
-            <Hero />
+            <div className="h-screen">
+                <Nav />
+                <Hero />
+            </div>
             <Hobbies />
         </div>
     );

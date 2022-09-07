@@ -604,10 +604,6 @@ video {
   height: 40vh;
 }
 
-.h-\[30vh\] {
-  height: 30vh;
-}
-
 .w-full {
   width: 100%;
 }
@@ -699,11 +695,6 @@ video {
   line-height: 2.5rem;
 }
 
-.text-lg {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-}
-
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -720,8 +711,4 @@ video {
 
 .opacity-30 {
   opacity: 0.3;
-}
-
-.opacity-60 {
-  opacity: 0.6;
 }
