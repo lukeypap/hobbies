@@ -740,10 +740,6 @@ video {
           animation: fadeIn 2s ease-in-out infinite;
 }
 
-.cursor-pointer {
-  cursor: pointer;
-}
-
 .flex-col {
   flex-direction: column;
 }
