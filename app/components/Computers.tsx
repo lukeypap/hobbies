@@ -35,14 +35,13 @@ const Computers = () => {
                     During lockdown I found myself looking for new things to try. I'd stumbled upon
                     my old project folder from my school years. This had some really basic Java code
                     and a HTML + CSS website in. Since I enjoyed doing those school projects so much
-                    I thought why not try teach myself to code? Since I started with Java as I had
-                    the most experience in this language and quickly grasped the basics. During this
-                    time I began wondering how the world of the web works, this led me to explore
-                    Spring Boot. Through this I learnt the world of API's and how templating engines
-                    work. From there it was a natural progession onto Frontend development, since I
-                    already had experience with HTML and CSS I thought I'd try to learn the language
-                    of the web, Javascript. Ever since it's been my full-time hobby! I've been
-                    creating apps and websites in any spare time I have.
+                    I thought why not try teach myself to code? I started with Java as I had the
+                    most experience in this language and quickly grasped the basics. During this
+                    time I began wondering how the world of the web works and from there it was a
+                    natural progession onto web development. Since I already had experience with
+                    HTML and CSS I thought I'd try to learn the language of the web, Javascript.
+                    Ever since it's been my full-time hobby! I've been creating apps and websites in
+                    any spare time I have.
                 </motion.p>
             </div>
             <div className="py-20">

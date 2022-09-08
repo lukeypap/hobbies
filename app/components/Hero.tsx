@@ -45,12 +45,20 @@ const Hero = () => {
                         <h1 className="text-5xl text-fuchsia-800 inline-block">!</h1>
                     </div>
                 </motion.div>
-                <div
-                    className="h-[30vh] mt-24  border-gray-200 border-solid flex items-center justify-center opacity-60"
+                <motion.div
+                    initial={{ opacity: 0, translateY: 25 }}
+                    animate={{ opacity: 1, translateY: 0 }}
+                    transition={{ duration: 1, delay: 1 }}
+                    className="relative h-[30vh] mt-16 lg:mt-28  border-gray-500 border-solid flex items-center justify-center opacity-60"
                     style={{ borderLeftWidth: "1px" }}
-                ></div>
+                ></motion.div>
             </div>
-            <div className="flex flex-col text-3xl items-center content-start mt-10">
+            <motion.div
+                initial={{ opacity: 0, translateY: 10 }}
+                animate={{ opacity: 1, translateY: 0 }}
+                transition={{ duration: 1, delay: 2 }}
+                className="flex flex-col text-3xl items-center content-start mt-10"
+            >
                 <Delayed waitBeforeShow={0}>
                     <span>
                         <MdKeyboardArrowDown className={`animate-fadeIn opacity-0`} />
@@ -66,7 +74,7 @@ const Hero = () => {
                         <MdKeyboardArrowDown className={`animate-fadeIn opacity-0`} />
                     </span>
                 </Delayed>
-            </div>
+            </motion.div>
         </div>
     );
 };

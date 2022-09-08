@@ -23,10 +23,10 @@ const HowItStarted = () => {
                     viewport={{ once: true }}
                     className="px-3 my-4 tracking-tight lg:text-lg"
                 >
-                    When I was younger I had an odd obsession with wires and how they worked. My Mum
-                    would find me with all the electronics out and wires everywhere! As I grew older
-                    my parents purchased a family laptop, from then on I became obsessed with how
-                    computers work.
+                    When I was younger I had an obsession with figuring out how things worked. My
+                    Mum would find me with all the electronics out and wires everywhere! As I grew
+                    older this curiostiy continued and once my parents purchased a family laptop I
+                    was fascinated by how this machine was so intelligent!
                 </motion.p>
                 {/* <p className="px-3 my-4 tracking-tight lg:text-lg">
                     Looking back I felt sorry for my parents as everyday I would ask them if we

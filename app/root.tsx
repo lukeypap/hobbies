@@ -4,7 +4,7 @@ import styles from "./styles/app.css";
 
 export const meta: MetaFunction = () => ({
     charset: "utf-8",
-    title: "New Remix App",
+    title: "My hobby",
     viewport: "width=device-width,initial-scale=1",
     description: "A page about my hobbies! By Luke Papaoikonomou",
 });
