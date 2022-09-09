@@ -17,20 +17,20 @@ const Index = () => {
     return (
         <>
             <div
-                className="sticky top-40 -z-20 w-screen bg-white flex justify-center"
+                className="sticky top-40 -z-20 bg-white flex justify-center"
                 ref={refContainer}
                 style={{ transform: `translateY(-${progress * 20}vh)` }}
             >
                 <HowItStarted />
             </div>
             <div
-                className="sticky top-40 -z-10 w-screen bg-black flex justify-center"
+                className="sticky top-40 -z-10 bg-black flex justify-center"
                 ref={refContainer}
                 style={{ transform: `translateY(-${progress * 20}vh)` }}
             >
                 <Today />
             </div>
-            <div className="sticky w-screen bg-white flex justify-center">
+            <div className="sticky bg-white flex justify-center">
                 <Computers />
             </div>
         </>

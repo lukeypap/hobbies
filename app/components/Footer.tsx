@@ -5,7 +5,7 @@ import { Link } from "react-scroll";
 
 const Footer = () => {
     return (
-        <div className="w-screen bg-black h-[70vh] text-white flex flex-col justify-between items-center">
+        <div className=" bg-black h-[70vh] text-white flex flex-col justify-between items-center">
             <motion.div
                 initial={{ opacity: 0, translateY: 30 }}
                 transition={{ duration: 1.5, delay: 0.4 }}
