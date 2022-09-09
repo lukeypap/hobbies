@@ -1,7 +1,5 @@
-import { useRef, useContext, useState, useCallback } from "react";
 import { MdKeyboardArrowDown } from "react-icons/md";
-import { ScrollContext } from "~/utils/ScrollObserver";
-import Delayed from "./Delayed";
+import Delayed from "../utils/Delayed";
 import { motion } from "framer-motion";
 
 const Hero = () => {

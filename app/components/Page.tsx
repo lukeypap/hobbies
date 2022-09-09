@@ -1,8 +1,8 @@
-import { useRef, useContext, useState, useCallback } from "react";
+import { useRef, useContext } from "react";
 import { ScrollContext } from "~/utils/ScrollObserver";
 import Footer from "./Footer";
 import Hero from "./Hero";
-import Hobbies from "./Hobbies";
+import Hobbies from "./hobbies";
 import Nav from "./Nav";
 
 const Page = () => {

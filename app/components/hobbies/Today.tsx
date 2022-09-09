@@ -1,5 +1,5 @@
 import React from "react";
-import booksIllustration from "../../assets/undraw_books_re_8gea.svg";
+import booksIllustration from "../../../assets/undraw_books_re_8gea.svg";
 import { motion } from "framer-motion";
 
 const Today = () => {

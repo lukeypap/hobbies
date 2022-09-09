@@ -1,5 +1,5 @@
 import React from "react";
-import computerIllustration from "../../assets/undraw_code_review_re_woeb.svg";
+import computerIllustration from "../../../assets/undraw_code_review_re_woeb.svg";
 import { motion } from "framer-motion";
 
 const Computers = () => {

@@ -1,5 +1,5 @@
 import React from "react";
-import computerGiftIllustration from "../../assets/undraw_online_wishes_dlmr.svg";
+import computerGiftIllustration from "../../../assets/undraw_online_wishes_dlmr.svg";
 import { motion } from "framer-motion";
 
 const HowItStarted = () => {

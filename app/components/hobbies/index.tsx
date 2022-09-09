@@ -1,10 +1,10 @@
-import { useRef, useContext, useState, useCallback } from "react";
+import { useRef, useContext } from "react";
 import { ScrollContext } from "~/utils/ScrollObserver";
-import Computers from "./Computers";
+import Computers from "./Programming";
 import HowItStarted from "./HowItStarted";
 import Today from "./Today";
 
-const Hobbies = () => {
+const Index = () => {
     const refContainer = useRef<HTMLDivElement>(null);
     const { scrollY } = useContext(ScrollContext);
 
@@ -37,4 +37,4 @@ const Hobbies = () => {
     );
 };
 
-export default Hobbies;
+export default Index;
