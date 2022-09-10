@@ -3,9 +3,7 @@ import { ScrollContext } from "~/utils/ScrollObserver";
 import Computers from "./Programming";
 import HowItStarted from "./HowItStarted";
 import Today from "./Today";
-import Works from "../works";
-import Work from "../works/work";
-import Tech from "./Tech";
+import Tech from "../tech/Tech";
 
 const Index = () => {
     const refContainer = useRef<HTMLDivElement>(null);
