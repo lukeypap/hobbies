@@ -16,7 +16,7 @@ const Footer = () => {
                 <h1 className="text-2xl mb-2">Thank you for reading!</h1>
                 <h2 className="text-gray-300">Here's a shortcut to the top.</h2>
                 <span className="text-3xl mt-4 animate-bounce cursor-pointer">
-                    <Link activeClass="active" to="home" spy={true} offset={-3600} smooth={true}>
+                    <Link activeClass="active" to="home" spy={true} offset={-8000} smooth={true}>
                         <MdKeyboardArrowUp />
                     </Link>
                 </span>
