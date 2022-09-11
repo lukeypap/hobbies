@@ -35,9 +35,8 @@ const Tech: React.FC = () => {
         const screenH = window.innerHeight;
         const halfH = screenH / 2;
         const percentY =
-            Math.min(clientHeight + halfH, Math.max(-screenH, scrollY - offsetTop) + halfH) /
-            clientHeight;
-        progress = Math.min(numOfItems - 0.5, Math.max(0.5, percentY * numOfItems));
+            Math.min(clientHeight, Math.max(-screenH, scrollY - offsetTop) + halfH) / clientHeight;
+        progress = percentY * numOfItems - 0.5;
     }
 
     return (
