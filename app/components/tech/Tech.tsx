@@ -43,7 +43,7 @@ const Tech: React.FC = () => {
     return (
         <div
             ref={containerRef}
-            className="text-white p-10 mt-10 text-4xl flex flex-col tracking-tight font-semibold lg:justify-center lg:items-center w-screen "
+            className="text-white p-10 mt-10 text-4xl flex flex-col tracking-tight font-semibold lg:justify-center lg:items-center w-screen"
         >
             <h1
                 className="sticky top-10 border-l-4 pl-4 lg:text-5xl"
@@ -98,7 +98,7 @@ const Tech: React.FC = () => {
                         ))}
                     </div>
                 </div>
-                <h2 className="h-screen sticky top-0"></h2>
+                <h2 className="h-[50vh] sticky top-0"></h2>
             </div>
         </div>
     );
