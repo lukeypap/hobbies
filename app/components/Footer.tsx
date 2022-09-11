@@ -7,7 +7,7 @@ const Footer = () => {
         <div className=" bg-white h-[70vh] text-black flex flex-col justify-between items-center">
             <motion.div
                 initial={{ opacity: 0, translateY: 30 }}
-                transition={{ duration: 1.5, delay: 0.4 }}
+                transition={{ duration: 1.5 }}
                 whileInView={{ opacity: 1, translateY: 0 }}
                 viewport={{ once: true }}
                 className="flex flex-col justify-center items-center p-10 mt-48"
